@@ -15,8 +15,29 @@ class Product
         $this->image = $image;
     }
 
-    public function getFullProduct()
+    public function getInfo()
     {
-        return "$this->title $this->price $this->description";
+        $info = "<span>Categoria: {$this->category->category}</span>
+                 <span>Prezzo: $this->price</span>
+                 <span>Descrizione: $this->description</span>";
+    
+        if (isset($this->ingredients)) {
+            $info .= "<span>Ingredienti: $this->ingredients</span>";
+        }
+        if (isset($this->size)) {
+            $info .= "<span>Formato: $this->size kg</span>";
+        }
+        if (isset($this->dimensions)) {
+            $info .= "<span>Dimensioni: $this->dimensions</span>";
+        }
+        if (isset($this->looks)) {
+            $info .= "<span>Sembianze: $this->looks</span>";
+        }
+        if (isset($this->color)) {
+            $info .= "<span>Colore: $this->color</span>";
+        }
+
+    
+        return $info;
     }
 }

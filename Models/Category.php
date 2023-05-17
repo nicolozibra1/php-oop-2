@@ -10,5 +10,5 @@ class Category
     }
 
 }
-$dog = new Category('Dog');
-$cat = new Category('Cat');
+$dog = new Category('Cane');
+$cat = new Category('Gatto');
