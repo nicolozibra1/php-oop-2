@@ -3,12 +3,11 @@
 class PetHome extends Product
 {
     public
-    $description, $dimensions;
+    $dimensions;
 
-    public function __construct(string $title, float $price, string $image, string $description, string $dimensions)
+    public function __construct(string $title, float $price, string $description, string $image, string $dimensions)
     {
-        parent::__construct($title, $price, $image);
-        $this->description = $description;
+        parent::__construct($title, $price, $description, $image);
         $this->dimensions = $dimensions;
     }
 }
