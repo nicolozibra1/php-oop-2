@@ -9,4 +9,6 @@
     <?php var_dump($product2); ?>
     <h1>PetHome</h1>
     <?php var_dump($product3); ?>
+    <h1>Game</h1>
+    <?php var_dump($product4); ?>
 </main>
