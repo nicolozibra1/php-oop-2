@@ -16,11 +16,9 @@ class Product
     }
 
     public function getInfo()
-    {
-        $info = "<span>Categoria: {$this->category->category}</span>
-                 <span>Prezzo: $this->price</span>
-                 <span>Descrizione: $this->description</span>";
-    
+    {   
+        $info = "<span>Prezzo: {$this->price}</span>
+                 <span>Descrizione: {$this->description}</span>";
         if (isset($this->ingredients)) {
             $info .= "<span>Ingredienti: $this->ingredients</span>";
         }
@@ -39,5 +37,10 @@ class Product
 
     
         return $info;
+    }
+    public function getIcon()
+    {
+        $icon = "<i class='{$this->category->category}'></i>";
+        return $icon;
     }
 }
