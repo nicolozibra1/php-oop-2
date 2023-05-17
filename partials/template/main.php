@@ -3,6 +3,14 @@
 ?>
 
 <main>
+    <div class="w-100 hero d-flex justify-content-end">
+        <h1><span class="highlighter">Scopri</span> un mondo <br>
+         di Amore e Cura <br>
+         per i tuoi Amici a <span class="highlighter">quattro zampe!</span></h1>
+        <div class="box-hero">
+            <img src="./img/cat-dog-hero.jpg" alt="">
+        </div>
+    </div>
     <div class="container">
         <h1 class="text-white">Products</h1>
         <div class="row">

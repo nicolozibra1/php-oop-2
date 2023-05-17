@@ -1,5 +1,7 @@
+/* HEADER */
 header{
     height: 80px;
+    background-color: #D9D1C7;
 }
 .box-logo{
     height: 80px;
@@ -17,4 +19,23 @@ ul li a{
     text-decoration: none;
     color: black;
     font-weight: 600;
+}
+
+/* HERO */
+.box-hero{
+    height: 500px;
+    margin-right: 100px;
+    position: relative;
+}
+.hero h1{
+    position: absolute;
+    top: 250px;
+    left: 300px;
+}
+h1 .highlighter{
+    color: #A65F21;
+}
+.box-hero img{
+    width: 100%;
+    height: 100%;
 }
