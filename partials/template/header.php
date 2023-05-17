@@ -10,5 +10,19 @@
 </head>
 <body>
     <header>
-        
+        <div class="container d-flex align-items-center">
+            <div class="box-logo">
+                <img src="./img/logo.png" alt="">
+            </div>
+            <nav>
+                <ul class="mt-3 list-unstyled d-flex gap-5">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Prodotti</a></li>
+                    <li><a href="#">Cane</a></li>
+                    <li><a href="#">Gatto</a></li>
+                    <li><a href="#">Chi Siamo</a></li>
+                    <li><a href="#">Contatti</a></li>
+                </ul>
+            </nav>
+        </div>
     </header>
