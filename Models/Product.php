@@ -17,22 +17,22 @@ class Product
 
     public function getInfo()
     {   
-        $info = "<span>Prezzo: {$this->price}</span>
-                 <span>Descrizione: {$this->description}</span>";
+        $info = "<span class='fw-semibold'>Prezzo:</span><span> {$this->price}&euro;</span>
+                 <span><span class='fw-semibold'>Descrizione:</span> {$this->description}</span>";
         if (isset($this->ingredients)) {
-            $info .= "<span>Ingredienti: $this->ingredients</span>";
+            $info .= "<span class='fw-semibold'>Ingredienti:</span><span> $this->ingredients</span>";
         }
         if (isset($this->size)) {
-            $info .= "<span>Formato: $this->size kg</span>";
+            $info .= "<span class='fw-semibold'>Formato:</span><span> $this->size kg</span>";
         }
         if (isset($this->dimensions)) {
-            $info .= "<span>Dimensioni: $this->dimensions</span>";
+            $info .= "<span class='fw-semibold'>Dimensioni:</span> $this->dimensions</span>";
         }
         if (isset($this->looks)) {
-            $info .= "<span>Sembianze: $this->looks</span>";
+            $info .= "<span class='fw-semibold'>Somiglianza:</span> $this->looks</span>";
         }
         if (isset($this->color)) {
-            $info .= "<span>Colore: $this->color</span>";
+            $info .= "<span class='fw-semibold'>Colore:</span> $this->color</span>";
         }
 
     
