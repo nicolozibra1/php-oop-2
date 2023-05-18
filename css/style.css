@@ -20,6 +20,26 @@ ul li a{
     color: black;
     font-weight: 600;
 }
+ul li a:hover{
+    border-bottom: 2px solid #2c1607;
+}
+.user-action i {
+    color: #2c1607;
+}
+.user-action i:hover{
+    cursor: pointer;
+    color: #ffc201;
+    scale: 1.5;
+}
+.user-action button{
+    background-color: #ffc201;
+    color: #2c1607;
+    border-radius: 10px;
+}
+.user-action button:hover{
+    background-color: #2c1607;
+    color: #ffc201;
+}
 
 /* HERO */
 .box-hero{

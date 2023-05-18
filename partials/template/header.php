@@ -25,5 +25,10 @@
                     <li><a href="#">Contatti</a></li>
                 </ul>
             </nav>
+            <div class="w-25 user-action d-flex align-items-center justify-content-end gap-3">
+                <i class="fa-solid fa-user"></i>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <button class="btn fw-semibold">LOGIN</button>
+            </div>
         </div>
     </header>
